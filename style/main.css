@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background-color: #bbb;
+    width: 100%;
+    height: 100%;
+}
+
+.game__pan {
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    padding-left: 50px;
+    padding-top: 50px;
+    margin: 16px auto;
+    border-radius: 7px;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.32);
+}
+
+.game__pan__block {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.game__pan__chess--white {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 0 10px black;
+}
+
+.game__pan__chess--black {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border-radius: 50%;
+}
+.game__info{
+    font-size: 21px;
+    text-align: center;
+    font-family: fantasy;
+}
+.game__again{
+    text-align: center;
+    visibility: hidden;
+}
